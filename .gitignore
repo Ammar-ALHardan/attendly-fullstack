@@ -1,0 +1,26 @@
+# Angular
+**/node_modules/
+**/.angular/
+**/dist/
+**/coverage/
+
+# .NET
+**/bin/
+**/obj/
+**/.vs/
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/appsettings.Production.json
+
+# Logs and backup
+*.log
+attendance-ui-git-backup/
